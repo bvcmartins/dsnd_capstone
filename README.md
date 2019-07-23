@@ -59,4 +59,5 @@ That was a quite interesting project, I enjoyed very much working on it. Here ar
 * outlier removal was very important for result improvement
 * PCA and k-means are good tools for qualitative data analysis, specially if you want to use visualization to generate insights. However, for this dataset, they did not lead to better predictions
 * Using XGBoost with sample weight parameters was a better solution to class imbalance than SMOTE
-* Definitely you can get misled if you use bad metrics. I obtained a AUC score of 0.79917 with the test score using a Naive Classifier.
+* The best model obtained an AUC score of 0.79917 using the Test set from [Kaggle competition] (http://www.kaggle.com/t/21e6d45d4c574c7fa2d868f0e8c83140)
+* F1 score presents higher fidelity to Confusion Matrix than AUC. It is more adequate for highly imbalanced datasets 
